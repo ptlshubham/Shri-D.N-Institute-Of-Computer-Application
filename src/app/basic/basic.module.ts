@@ -9,6 +9,7 @@ import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { BasicRoutes } from './basic.routing';
 import { HomeModule } from '../home/home.module';
+import { InfrastructureComponent } from './infrastructure/infrastructure.component';
 
 
 
@@ -19,12 +20,14 @@ import { HomeModule } from '../home/home.module';
     ContactComponent,
     GalleryComponent,
     TrustComponent,
+    InfrastructureComponent,
   ],
   imports: [
     CommonModule,
     SharedModule,
     RouterModule.forChild(BasicRoutes),
-    HomeModule
+    HomeModule,
+    
 
   ]
 })

@@ -11,10 +11,6 @@ export const AppRoutes: Routes = [
     { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
     { path: 'basic', loadChildren: () => import('./basic/basic.module').then(m => m.BasicModule) },
     {
-        path: 'infra',
-        loadChildren: () => import('./infrastructure/infrastructure.module').then(m => m.InfrastructureModule)
-    },
-    {
         path: 'department',
         loadChildren: () => import('./department/department.module').then(m => m.DepartmentModule)
     },
