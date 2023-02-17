@@ -56,9 +56,10 @@ export const MoreRoutes: Routes = [{
             component:ScholarshipsComponent
         },
         {
-            path:'syllabus',
+            path:'links/:id',
             component:SyllabusComponent
         },
+       
 
 
 ]

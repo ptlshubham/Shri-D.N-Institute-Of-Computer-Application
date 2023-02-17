@@ -37,7 +37,8 @@ import { ToastrModule } from 'ngx-toastr';
     MoreModule,
     AppRoutingModule,
     HttpClientModule,
-    NgxPaginationModule,ToastrModule
+    NgxPaginationModule,
+    ToastrModule.forRoot(),
 
 
      
