@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+// import { Component } from '@angular/core';
 import { Routes } from '@angular/router';
 import { AcademicCalendarComponent } from './academic-calendar/academic-calendar.component';
 import { CampusComponent } from './campus/campus.component';
@@ -52,15 +52,12 @@ export const MoreRoutes: Routes = [{
             component:PaperComponent
         },
         {
-            path:'scholarships',
+            path:'scholarship',
             component:ScholarshipsComponent
         },
         {
             path:'links/:id',
             component:SyllabusComponent
         },
-       
-
-
 ]
 }];
